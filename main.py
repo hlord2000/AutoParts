@@ -6,8 +6,8 @@ class AutoParts:
     def __init__(self, book_id=None, cookie=None): 
         self.find_chapters_link = "https://learning.oreilly.com/api/v2/epubs/urn:orm:book:%s/files/"
         self.book_id = book_id
-        self.cookies = 
-        self.headers = 
+        self.cookies = None 
+        self.headers = None 
       
         self.directories = ["./books", "./chapters"]
         for directory in self.directories:
